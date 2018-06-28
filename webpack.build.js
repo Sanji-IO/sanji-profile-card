@@ -6,7 +6,7 @@ const config = require('./webpack.config.js');
 
 config.devtool = 'source-map';
 config.entry = {
-  'sanji-ui': './component/index.js'
+  'sanji-ui': './sanji-profile-card/index.js'
 };
 config.output.filename = 'sanji-ethernet-ui.js';
 config.output.libraryTarget = 'umd';
