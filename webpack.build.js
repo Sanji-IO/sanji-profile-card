@@ -8,7 +8,7 @@ config.devtool = 'source-map';
 config.entry = {
   'sanji-ui': './sanji-profile-card/index.js'
 };
-config.output.filename = 'sanji-ethernet-ui.js';
+config.output.filename = 'sanji-profile-card.js';
 config.output.libraryTarget = 'umd';
 config.output.library = 'sjEthernet';
 config.externals = ['angular', 'sanji-core-ui'];
