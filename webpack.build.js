@@ -33,7 +33,7 @@ config.module.rules = [
 ].concat(config.module.rules);
 
 config.plugins.push(
-  new ExtractTextPlugin('sanji-ethernet.css'),
+  new ExtractTextPlugin('profile-card.css'),
   new LodashModuleReplacementPlugin(),
   new webpack.optimize.UglifyJsPlugin({
     compress: {
