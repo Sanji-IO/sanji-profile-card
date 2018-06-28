@@ -2,6 +2,8 @@
 
 <img src="https://user-images.githubusercontent.com/880569/42014956-a0d954e0-7ad7-11e8-8337-63ce840d3c90.png" width="400px" />
 
+## Example usage
+
 ```js
 import {sjProfileCard} from 'sanji-profile-card';
 
@@ -39,3 +41,7 @@ const DemoComponent = {
   `
 };
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
