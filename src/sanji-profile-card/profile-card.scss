@@ -1,0 +1,106 @@
+$profile-card-primary: #79adea;
+
+.md-tooltip.profile-card-container__tooltip {
+  font-size: 12px;
+  height: auto;
+  ul {
+    margin: 4px 0;
+    padding: 0;
+  }
+  line-height: 18px;
+}
+
+.profile-card-container {
+  background-color: #fff;
+  position: relative;
+}
+
+.profile-card-container__hashtag-num,
+.profile-card-container__account-box {
+  position: absolute;
+  top: 4px;
+}
+.profile-card-container__hashtag-num {
+  font-weight: 900;
+  left: 7px;
+}
+.profile-card-container__account-box {
+  cursor: pointer;
+  right: 7px;
+  svg {
+    fill: $profile-card-primary;
+  }
+}
+
+.profile-card {
+  display: flex;
+  border-radius: 2px;
+  border: 1px solid $profile-card-primary;
+  padding: 22px 28px 14px 2px;
+  @media (min-width: 1441px) {
+    .profile-card__icon-box {
+      padding-right: 14px;
+    }
+    padding: 14px;
+  }
+}
+
+.profile-card__info {
+  width: 100%;
+}
+
+.profile-card__row {
+  display: flex;
+  padding: 4px 0;
+  justify-content: space-around;
+}
+
+.profile-card__title,
+.profile-card__group {
+  align-self: flex-end;
+  width: 100%;
+  padding-left: 7px;
+}
+
+.profile-card__group {
+  font-size: 12px;
+}
+
+.profile-card__row--line {
+  border-bottom: 1px solid $profile-card-primary;
+  &:last-child {
+    border-bottom: 1px solid transparent;
+  }
+}
+
+
+.profile-card__icon-box {
+  align-self: center;
+}
+
+.md-button.md-fab.profile-card__icon {
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+}
+.profile-card__icon {
+  cursor: default;
+  background-color: $profile-card-primary;
+  > svg {
+    fill: #fff;
+    vertical-align: middle;
+  }
+}
+
+.profile-card__title {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.profile-card__prop {
+  color: #9b9b9b;
+}
+.profile-card__prop,
+.profile-card__value {
+  margin: 1px 0;
+}

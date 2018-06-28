@@ -1,0 +1,29 @@
+{
+  "name": "sanji-profile-card-ui",
+  "version": "1.0.0",
+  "description": "Sanji Profile Card UI",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn dev",
+    "dev": "cross-env NODE_ENV=development node server/dev-server.js",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.build.js"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.6.8",
+    "sanji-common-devs-ui": "8.3.1",
+    "sanji-core-ui": "4.0.0",
+    "semantic-release": "12.2.5",
+    "travis-deploy-once": "4.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:MoxaSystem/ThingsPro/sanji-profile-card-ui.git"
+  },
+  "keywords": [
+    "Sanji",
+    "Profile",
+    "Card"
+  ],
+  "author": "kmsheng",
+  "license": "MIT"
+}
