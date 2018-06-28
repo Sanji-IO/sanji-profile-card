@@ -21,7 +21,8 @@ class DemoController {
         <li>Password: ******</li>
       </ul>
     `;    // omit profileMessage to hide account icon and its message tooltip
-    this.keyValuePairs = [
+    
+    this.keyValuePairs = [    // pairs can be any length as long as the card is nice-looking
       {key: 'APN Type', value: 'Static'},
       {key: 'Authentication Type', value: 'Both'},
       {key: 'APN', value: 'internet'},
