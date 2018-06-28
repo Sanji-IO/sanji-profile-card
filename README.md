@@ -13,14 +13,14 @@ class DemoController {
   
   $onInit() {
     this.title = 'Profile 1';
-    this.hashtagNum = '1';
+    this.hashtagNum = '1';    // omit this to hide hashtag number
     this.profileMessage = `
       <ul>
         <li>APN Auth</li>
         <li>Username: TestUser</li>
         <li>Password: ******</li>
       </ul>
-    `;
+    `;    // omit profileMessage to hide account icon and its message tooltip
     this.keyValuePairs = [
       {key: 'APN Type', value: 'Static'},
       {key: 'Authentication Type', value: 'Both'},
