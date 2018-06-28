@@ -1,5 +1,5 @@
 {
-  "name": "sanji-profile-card-ui",
+  "name": "sanji-profile-card",
   "version": "1.0.0",
   "description": "Sanji Profile Card UI",
   "main": "index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:MoxaSystem/ThingsPro/sanji-profile-card-ui.git"
+    "url": "git@gitlab.com:MoxaSystem/ThingsPro/sanji-profile-card.git"
   },
   "keywords": [
     "Sanji",
