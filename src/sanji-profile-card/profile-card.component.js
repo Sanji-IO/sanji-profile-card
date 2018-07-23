@@ -1,6 +1,17 @@
+const $inject = ['$scope'];
+
 class ProfileCardController {
 
+  constructor(...injects) {
+    $inject.forEach((item, index) => (this[item] = injects[index]));
+  }
+
   $onInit() {
+    this.setData();
+    this.$scope.$watch('$ctrl.keyValuePairs', () => this.setData());
+  }
+
+  setData() {
     this.keyValuePairs = this.keyValuePairs || [];
     this.firstPair = this.keyValuePairs[0];
     this.pairsArr = this.keyValuePairs.slice(1)
@@ -12,6 +23,8 @@ class ProfileCardController {
       }, []);
   }
 }
+
+ProfileCardController.$inject = $inject;
 
 const ProfileCardComponent = {
   bindings: {
