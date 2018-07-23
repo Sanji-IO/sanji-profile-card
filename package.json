@@ -1,6 +1,6 @@
 {
   "name": "sanji-profile-card",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sanji Profile Card UI",
   "main": "index.js",
   "scripts": {
